@@ -7,9 +7,13 @@
     "test": "jasmine",
     "lint": "npx eslint --ext .js ./ --fix"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "selenium-webdriver",
+    "boilerplate",
+    "example"
+  ],
+  "author": "Girma Nigusse",
+  "license": "MIT",
   "devDependencies": {
     "chromedriver": "^77.0.0",
     "eslint": "^6.5.1",
