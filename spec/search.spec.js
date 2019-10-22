@@ -1,4 +1,4 @@
-const { Builder, By, Key } = require("selenium-webdriver");
+const { Builder, By, Key, until } = require("selenium-webdriver");
 require("chromedriver");
 
 describe("google Search", () => {
@@ -21,9 +21,11 @@ describe("google Search", () => {
   });
 
   it('the page title should start with "Cheese!"', async () => {
+    await browser.wait(until.urlContains("search"), 5000);
+
     const title = await browser.getTitle();
-    const isTitleStartWithCheese = title.lastIndexOf("Cheese!", 0) === 0;
-    expect(isTitleStartWithCheese).toBe(true);
+    const words = title.split(" ");
+    expect(words[0]).toBe("Cheese!");
   });
 
   afterAll(() => {
