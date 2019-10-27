@@ -9,7 +9,14 @@ describe("google Search", () => {
     browser.get("https://www.google.com");
   });
 
+  afterAll(() => {
+    browser.quit();
+  });
+
   it("should be on google search page", async () => {
+    const searchBox = await browser.findElement(By.name("q"));
+    await browser.wait(until.elementIsVisible(searchBox), 5000);
+
     const title = await browser.getTitle();
     expect(title).toEqual("Google");
   });
@@ -26,9 +33,5 @@ describe("google Search", () => {
     const title = await browser.getTitle();
     const words = title.split(" ");
     expect(words[0]).toBe("Cheese!");
-  });
-
-  afterAll(() => {
-    browser.quit();
   });
 });

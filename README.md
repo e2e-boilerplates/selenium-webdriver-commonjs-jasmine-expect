@@ -1,5 +1,6 @@
 # selenium-webdriver: (commonjs, jasmine)
-selenium-webdriver end-to-end test automation boilerplate project. Using commonjs &amp; jasmine
+
+selenium-webdriver end-to-end test automation boilerplate project. Using commonjs &amp; jasmine.
 
 ## Getting Started
 
