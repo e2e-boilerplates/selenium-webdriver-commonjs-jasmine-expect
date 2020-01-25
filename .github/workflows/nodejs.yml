@@ -1,4 +1,4 @@
-name: NodeCI
+name: selenium-webdriver-commonjs-jasmine
 
 on: [push]
 
@@ -12,11 +12,12 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "12.x"
-      - name: npm install
+      - name: INSTALL
         run: |
           npm ci
         env:
           CI: true
-      - name: test
+      - name: TEST
         run: |
+          npm run lint
           npm run test
