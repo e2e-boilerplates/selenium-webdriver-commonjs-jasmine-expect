@@ -1,9 +1,9 @@
-name: selenium-webdriver-commonjs-jasmine
+name: selenium-webdriver-commonjs-jasmine-expect
 
-on: 
+on:
   push:
   schedule:
-    - cron: '0 0 1-31/2 * *' 
+    - cron: "0 0 1-31/2 * *"
 
 jobs:
   build:
