@@ -1,22 +1,6 @@
 {
-  "name": "selenium-webdriver-commonjs-jasmine-expect",
-  "version": "1.0.0",
-  "description": "selenium-webdriver end-to-end test automation boilerplate, using CommonJS, Jasmine and Expect.",
-  "scripts": {
-    "lint": "npx eslint --ext .js ./ --fix",
-    "test": "npx jasmine"
-  },
-  "keywords": [
-    "selenium-webdriver",
-    "commonjs",
-    "jasmine",
-    "boilerplate",
-    "example",
-    "e2e",
-    "e2e test"
-  ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-  "license": "MIT",
+  "description": "selenium-webdriver end-to-end test automation boilerplate, using CommonJS, Jasmine and Expect.",
   "devDependencies": {
     "chromedriver": "79.0.3",
     "eslint": "6.8.0",
@@ -34,5 +18,29 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  }
+  },
+  "keywords": [
+    "boilerplate",
+    "commonjs",
+    "e2e",
+    "e2e tests",
+    "example",
+    "expect",
+    "integration test",
+    "jasmine",
+    "selenium",
+    "selenium-webdriver",
+    "webdriver"
+  ],
+  "license": "MIT",
+  "name": "selenium-webdriver-commonjs-jasmine-expect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplates/selenium-webdriver-commonjs-jasmine-expect.git"
+  },
+  "scripts": {
+    "lint": "npx eslint --ext .js ./ --fix",
+    "test": "npx jasmine"
+  },
+  "version": "1.0.0"
 }
