@@ -1,6 +1,6 @@
 {
-  "author": "",
-  "description": "selenium-webdriver end-to-end test automation boilerplate, using CommonJS, Jasmine and Expect.",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "description": "selenium webdriver end-to-end test automation boilerplate.",
   "devDependencies": {
     "chromedriver": "79.0.3",
     "eslint": "6.8.0",
@@ -20,8 +20,13 @@
     }
   },
   "keywords": [
+    "boilerplate",
     "commonjs",
+    "e2e",
+    "e2e tests",
+    "example",
     "expect",
+    "integration test",
     "jasmine",
     "selenium",
     "selenium-webdriver",
