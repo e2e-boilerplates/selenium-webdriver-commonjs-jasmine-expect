@@ -1,4 +1,4 @@
-[![GitHub Actions status | e2e-boilerplate/selenium-webdriver-commonjs-jasmine-expect](https://github.com/e2e-boilerplate/selenium-webdriver-commonjs-jasmine-expect/workflows/selenium-webdriver-commonjs-jasmine-expect/badge.svg)](https://github.com/e2e-boilerplate/selenium-webdriver-commonjs-jasmine-expect/actions?workflow=selenium-webdriver-commonjs-jasmine-expect)
+[![GitHub Actions status | e2e-boilerplate/selenium-webdriver-commonjs-jasmine-expect](https://github.com/e2e-boilerplate/selenium-webdriver-commonjs-jasmine-expect/workflows/selenium-webdriver-commonjs-jasmine-expect/badge.svg)](https://github.com/e2e-boilerplate/selenium-webdriver-commonjs-jasmine-expect/actions?workflow=selenium-webdriver-commonjs-jasmine-expect) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Selenium-WebDriver Boilerplate
 
