@@ -1,8 +1,9 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/selenium-webdriver-commonjs-jasmine-expect/issues"
   },
+  "dependencies": {},
   "description": "Selenium-WebDriver end-to-end test automation boilerplate. using Commonjs, Jasmine and Expect.",
   "devDependencies": {
     "chromedriver": "80.0.1",
@@ -24,13 +25,8 @@
     }
   },
   "keywords": [
-    "boilerplate",
     "commonjs",
-    "e2e",
-    "e2e tests",
-    "example",
     "expect",
-    "integration test",
     "jasmine",
     "selenium",
     "selenium-webdriver"
@@ -45,6 +41,5 @@
     "lint": "npx eslint --ext .js ./ --fix",
     "test": "npx jasmine"
   },
-  "version": "1.0.0",
-  "dependencies": {}
+  "version": "1.0.0"
 }
