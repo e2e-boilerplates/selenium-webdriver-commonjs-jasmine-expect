@@ -16,7 +16,11 @@
     "eslint-config-prettier": "6.10.1",
     "eslint-plugin-import": "2.20.2",
     "eslint-plugin-prettier": "3.1.2",
+<<<<<<< HEAD
     "husky": "4.2.3",
+=======
+    "husky": "4.2.5",
+>>>>>>> 3f3ec6bb62771a222355dcf82f43194fa43d69ad
     "prettier": "2.0.4",
     "pretty-quick": "2.0.1"
   },
