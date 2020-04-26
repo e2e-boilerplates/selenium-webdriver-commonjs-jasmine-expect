@@ -1,9 +1,0 @@
-| referrer                                                                          | count | uniques |
-| :-------------------------------------------------------------------------------- | :---- | :------ |
-| /e2e-boilerplate/selenium-webdriver-commonjs-jasmine-expect/actions               | 3     | 1       |
-| /e2e-boilerplate/selenium-webdriver-commonjs-jasmine-expect/runs/566153062        | 2     | 1       |
-| /e2e-boilerplate/selenium-webdriver-commonjs-jasmine-expect/actions/runs/66995895 | 1     | 1       |
-| /e2e-boilerplate/selenium-webdriver-commonjs-jasmine-expect/actions/runs/72296000 | 1     | 1       |
-| /e2e-boilerplate/selenium-webdriver-commonjs-jasmine-expect/runs/547333044        | 1     | 1       |
-| /e2e-boilerplate/selenium-webdriver-commonjs-jasmine-expect/runs/547381184        | 1     | 1       |
-| /e2e-boilerplate/selenium-webdriver-commonjs-jasmine-expect/runs/566182589        | 1     | 1       |
