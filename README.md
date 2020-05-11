@@ -2,7 +2,7 @@
     
 # Selenium-WebDriver Boilerplate
     
-Selenium-WebDriver end-to-end test automation boilerplate, Using Commonjs, Jasmine and Expect.
+Selenium-WebDriver end-to-end test automation boilerplate, Using [Commonjs](https://requirejs.org/docs/commonjs.html), [Jasmine](https://jasmine.github.io) and Expect.
     
 ## Getting Started
     	1. git clone git@github.com:e2e-boilerplate/selenium-webdriver-commonjs-jasmine-expect.git
